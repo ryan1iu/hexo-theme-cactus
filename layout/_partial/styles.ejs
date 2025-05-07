@@ -31,3 +31,19 @@
       href="<%- url_for('/lib/font-awesome/css/all.min.css') %>"
   /></noscript>
 <% } %>
+
+<% if (isCdnEnable('lxgw_wenkai')) { %>
+  <%- getCdnLink('lxgw_wenkai', {preload: true}) %>
+<% } else { %> 
+  <link
+    rel="preload"
+    href="<%- url_for('/lib/lxgw-wenkai-webfont-1.7.0/package/style.css') %>"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
+  <noscript
+    ><link
+      rel="stylesheet"
+      href="<%- url_for('/lib/lxgw-wenkai-webfont-1.7.0/package/style.css') %>"
+  /></noscript>
+<% } %>
