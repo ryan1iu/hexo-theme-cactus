@@ -94,8 +94,8 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
-  gravatar: true
+  url: /images/logo2.jpg
+  gravatar: false
   grayout: false
 
 # Customize the favicons.
