@@ -50,6 +50,14 @@ posts_overview:
   post_count: 6
   sort_updated: false
 
+# Enable KaTeX support
+katex:
+  enable: true
+  # Add copy buttons to code blocks
+  copy_tex: true
+  # Add support for mhchem extension
+  mhchem: true
+  
 # Customize the archive view.
 # Options:
 #   - sort_updated: sort posts by last modification date instead of creation date.
