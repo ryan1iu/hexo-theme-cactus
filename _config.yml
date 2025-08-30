@@ -20,6 +20,7 @@ nav:
   tag: /tags/
   category: /categories/
   search: /search/
+  feed: /atom.xml
 
 
 # Links to your social media accounts.
@@ -54,9 +55,9 @@ posts_overview:
 katex:
   enable: true
   # Add copy buttons to code blocks
-  copy_tex: true
+  copy_tex: false
   # Add support for mhchem extension
-  mhchem: true
+  mhchem: false
   
 # Customize the archive view.
 # Options:
@@ -70,7 +71,7 @@ archive:
 # Options:
 #   - show_updated: show the last modification date.
 post:
-  show_updated: true
+  show_updated: false
 
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
@@ -145,7 +146,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: 
+rss: atom.xml
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
